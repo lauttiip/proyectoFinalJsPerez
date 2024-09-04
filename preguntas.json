@@ -1,0 +1,33 @@
+[
+    {
+        "pregunta": "¿Cual es la capital de Argentina?",
+        "opciones": [
+            "A: Mendoza",
+            "B: Cordoba",
+            "C: Buenos Aires",
+            "D: Ninguna de las anteriores"
+        ],
+        "correcta": "C"
+    },
+    {
+        "pregunta": "¿Cual fue el ECMAScript mas importante hasta la fecha?",
+        "opciones": [
+            "A: ES8",
+            "B: ES6",
+            "C: ES12",
+            "D: ES5"
+        ],
+        "correcta": "B"
+    },
+    {
+        "pregunta": "¿Quien se dice que es el PIONERO de la programacion?",
+        "opciones": [
+            "A: Ada Lovelace",
+            "B: Grace Hopper",
+            "C: Bill Gates",
+            "D: Alan Turing"
+        ],
+        "correcta": "A"
+    }
+]
+

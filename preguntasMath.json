@@ -1,0 +1,22 @@
+[
+    {
+        "pregunta": "Juan tiene 5 pelotas. Su amigo Nacho le da 3 pelotas más. Luego, Juan le da 2 pelotas a su amiga Ana. ¿Cuántas pelotas tiene Juan ahora?",
+        "opciones": [
+            "A: 2",
+            "B: 6",
+            "C: 4",
+            "D: 5"
+        ],
+        "correcta": "B"
+    },
+    {
+        "pregunta": "Ana tiene 12 galletas. Ella decide dar 3 galletas a cada uno de sus 4 amigos. Después, recibe 8 galletas más de su mamá. Luego, decide dividir todas sus galletas restantes en partes iguales entre ella y su hermana. ¿Cuántas galletas recibe cada una al final?",
+        "opciones": [
+            "A: 3",
+            "B: 2",
+            "C: 4",
+            "D: 6"
+        ],
+        "correcta": "C"
+    }
+]

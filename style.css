@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.seccionBienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: 100%;
+}
+
+.contorno {
+    border: 2px solid #6C273A;
+    padding: 5% 10%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contorno h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #6C273A;
+}
+
+.contorno p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#startButton {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #6C273A;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startButton:hover {
+    background-color: #8e3550;
+}
+
+.seccionJuego {
+    display: none;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pregunta-container {
+    margin-bottom: 40px;
+}
+
+.pregunta-text {
+    font-size: 1.5rem;
+    color: #6C273A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.opciones-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.opcion-btn {
+    padding: 15px;
+    font-size: 1rem;
+    border: 2px solid #6C273A;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.opcion-btn:hover {
+    background-color: #6C273A;
+    color: #fff;
+}
+
+.opcion-correcta {
+    background-color: #28a745 !important;
+    color: #fff;
+    border-color: #28a745 !important;
+}
+
+.opcion-incorrecta {
+    background-color: #dc3545 !important;
+    color: #fff;
+    border-color: #dc3545 !important;
+}
+
+@media (max-width: 600px) {
+    .contorno {
+        padding: 10% 5%;
+    }
+
+    .pregunta-text {
+        font-size: 1.2rem;
+    }
+
+    .opcion-btn {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
